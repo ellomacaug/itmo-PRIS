@@ -17,9 +17,9 @@
 ## Отчет
 ### Бизнес-процессы
 #### До
-![before](BusinessProcessModelsDiagrams/before.png)
+![before](BPMD/before.png)
 #### После
-![after](BusinessProcessModelsDiagrams/after.png)
+![after](BPMD/after.png)
 #### Разница
 Разрабатываемая информационная система с использованием машинного обучения значительно трансформирует бизнес-процессы управления товарными запасами в сети супермаркетов. Ранее заказы формировались вручную на основе интуиции менеджеров, что часто приводило к ошибкам, избыточным или недостаточным запасам. После внедрения системы прогноз спроса будет автоматически формироваться на основе анализа исторических данных о продажах, сезонности, погодных условий и других факторов. Это позволит повысить точность заказов, сократить количество списаний и упущенной выручки, снизить трудозатраты менеджеров, а также ускорить процесс принятия решений. ERP-система из простого регистратора заказов превращается в полноценный источник данных и участника автоматизированного обмена информацией. Менеджер при этом переходит от ручного прогнозирования к роли контролёра и корректировщика рекомендаций, что снижает влияние человеческого фактора и повышает устойчивость бизнес-процесса в целом.
 ### Диаграмма структуры данных
@@ -31,7 +31,7 @@
 * Forecast — предсказания спроса по товарам в магазинах.
 * Inventory — текущее состояние склада (можно использовать как фичу и как выход для обратной связи).
 ### Диаграмма архитектуры системы
-![architecture](ArchitectureDiagrams/architecture.png)
+![architecture](AD/architecture.png)
 * WMS = warehouse management system
 * POS = point of sail
 * ERP = enterprise resource planning
@@ -47,19 +47,19 @@
 * Хранилища — логическое разделение для данных.
 
 #### Deployment
-![deployment](ArchitectureDiagrams/deployment.png)
+![deployment](AD/deployment.png)
 ### Структурная UML-диаграмма
 #### Диаграмма компонентов 
-![components](UMLStructuralDiagrams/components.png)
+![components](SD/components.png)
 #### Диаграмма классов
-![classes](UMLStructuralDiagrams/classes.png)
+![classes](SD/classes.png)
 ### Поведенческая UML-диаграмма 
 #### Диаграмма активностей
-![activities](UMLBehavioralDiagrams/activities.png)
+![activities](BD/activities.png)
 #### Диаграмма прецедентов
-![precedents](UMLBehavioralDiagrams/precedents.png)
+![precedents](BD/precedents.png)
 #### Диаграмма последовательностей
-![sequences](UMLBehavioralDiagrams/sequences.png)
+![sequences](BD/sequences.png)
 
 ## Дизайн ML системы - Управление логистикой и товарными запасами
 
