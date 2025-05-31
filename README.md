@@ -15,6 +15,13 @@
 
 Количество уникальных товаров в сети - 10_000. Количество магазинов - 500. Количество продаж за последний год по всей сети - 2_670_000_000
 ## Отчет
+> ### Термины
+> * WMS = warehouse management system
+> * POS = point of sail
+> * ERP = enterprise resource planning
+> * ETL = extract, transform, load
+> * ELT = extract, load, transform
+
 ### Бизнес-процессы
 #### До
 ![before](BPMD/before.png)
@@ -31,11 +38,6 @@
 * Inventory — текущее состояние склада (можно использовать как фичу и как выход для обратной связи).
 ### Диаграмма архитектуры системы
 ![architecture](AD/architecture.png)
-* WMS = warehouse management system
-* POS = point of sail
-* ERP = enterprise resource planning
-* ETL = extract, transform, load
-* ELT = extract, load, transform
 
 Краткое описание компонентов:
 * ERP / WMS / POS — внешние источники.
